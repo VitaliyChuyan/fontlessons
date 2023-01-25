@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap"); */
+@font-face {
+  font-family: "NeoTech";
+  src: url("../fonts/NeoTech-Medium.woff2") format("woff2"),
+    url("../fonts/NeoTech-Medium.woff") format("woff");
+  font-weight: normal;
+  font-size: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NeoTech";
+  src: url("../fonts/NeoTech-Bold.woff2") format("woff2"),
+    url("../fonts/NeoTech-Bold.woff") format("woff");
+  font-weight: bold;
+  font-size: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "unbounded", sans-serif;
+}
+.text-logo {
+  font-family: "neotech";
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: 700;
+  color: #4d5ab3;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.text_link {
+  font-family: "neotech";
+  font-size: normal;
+  font-style: normal;
+  font-weight: 500;
+  color: #1cc766;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.title_text_one {
+  font-family: "neotech";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ff8c00;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.text_about {
+  font-family: "unbounded";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #5a5e5c;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.text_title_two {
+  font-family: "neotech";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  color: #03c523;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.text_section {
+  font-family: "unbounded";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #3c413e;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: 1;
+}
+.text_image {
+  font-family: "unbounded";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #3c413e;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #13ff71;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: 1;
+}
